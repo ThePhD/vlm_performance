@@ -8,3 +8,4 @@ vlm - x64 Release bench.html
 vlm - x86 Release bench.html
 vlm - x64 Debug bench.html
 vlm - x86 Debug bench.html
+*.pdf
