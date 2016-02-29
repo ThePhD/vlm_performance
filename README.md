@@ -8,7 +8,7 @@ Three macros control the tests that get run:
    - `VLM_DELETION` => define to test positional delete
 
 Example compilation command:
-   - `g++ -std=c++14 -O3 -o vlm_performance -DVLM_SIZE=1000 -DVLM_INSERTION`
+   - `g++ -std=c++14 -I"vendor/" -I"vendor\nonius\deps\nonius.deps\include" -O3 -o vlm_performance -DVLM_SIZE=1000 -DVLM_INSERTION`
 
 You can then pass arguments to the executable.
    - `-s` => number of samples to generate (should be small for high VLM_SIZE)
