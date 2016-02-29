@@ -1,0 +1,3 @@
+[submodule "vendor/nonius"]
+	path = vendor/nonius
+	url = https://github.com/ThePhD/nonius
